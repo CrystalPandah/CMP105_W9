@@ -1,5 +1,6 @@
 #include "BeachBallManager.h"
 
+
 BeachBallManager::BeachBallManager()
 {
 	spawnPoint = sf::Vector2f(350, 250);
