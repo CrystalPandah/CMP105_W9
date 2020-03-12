@@ -77,7 +77,7 @@ void BeachBallManager::deathCheck()
 }
 
 //Render all alive balls
-void BeachBallManager::render(sf::RenderWindow* widnow)
+void BeachBallManager::render(sf::RenderWindow* window)
 {
 	for (int i = 0; i < balls.size(); i++)
 	{
