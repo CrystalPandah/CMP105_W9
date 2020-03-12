@@ -25,6 +25,6 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
-	Ball ball;
+	//Ball ball;
 
 };
