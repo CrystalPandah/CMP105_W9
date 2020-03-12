@@ -19,11 +19,14 @@ void Level::handleInput(float dt)
 {
 
 }
-
+//////
+//refer to tab 2 for similar code for this part
+///
 // Update game objects
 void Level::update(float dt)
 {
 	ball.update(dt);
+	beachBallManager.update(dt);
 }
 
 // Render level
