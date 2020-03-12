@@ -26,5 +26,6 @@ private:
 	sf::RenderWindow* window;
 	Input* input;
 	Ball ball;
+	BeachBallManager beachBallManager;
 
 };
